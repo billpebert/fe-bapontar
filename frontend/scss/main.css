@@ -10,4 +10,14 @@ body {
 .navbar {
   border-radius: 0px 0px 20px 20px;
 }
+
+.btn-login {
+  background-color: #00226e;
+  color: #ffffff;
+}
+
+.btn-login:hover {
+  background-color: #1b3771;
+  color: #ffffff;
+}
 /*# sourceMappingURL=main.css.map */
