@@ -1,4 +1,13 @@
+body {
+  font-family: "Assistant", sans-serif;
+  color: #00226e;
+}
+
 .navbar-brand img {
   max-height: 40px;
+}
+
+.navbar {
+  border-radius: 0px 0px 20px 20px;
 }
 /*# sourceMappingURL=main.css.map */
