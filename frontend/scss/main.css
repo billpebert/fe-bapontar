@@ -11,6 +11,23 @@ body {
   border-radius: 0px 0px 20px 20px;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #00226e;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #00226e !important;
+}
+
+.btn-navbar-desktop {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -16px !important;
+  height: 70px;
+  border-radius: 0px 0px 20px 0px;
+}
+
 .btn-login {
   background-color: #00226e;
   color: #ffffff;
