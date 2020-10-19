@@ -49,10 +49,11 @@ body {
 
 //header
 header {
-  padding: 180px 0 165px;
-  margin-top: -150px;
-  background-image: url("../images/headerImg.jpg");
+  padding: 290px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/header.png");
   background-size: cover;
+  height: 50rem;
 
   h1,
   p {
@@ -70,12 +71,78 @@ header {
   }
 
   .btn-get-started {
-    background-color: #ff9e53;
+    background-color: #fd850e;
     color: #ffffff;
+    font-weight: bold;
 
     &:hover {
-      background-color: #ffaa69;
+      background-color: #ff9e53;
       color: #ffffff;
     }
+  }
+}
+
+//statistics
+.section-stats {
+  margin-top: -100px;
+
+  .stats-detail {
+    padding-top: 15px;
+    padding-left: 40px;
+    background-color: #ffffff;
+  }
+
+  .border-left {
+    border-radius: 5px 0px 0px 5px;
+  }
+
+  .border-right {
+    border-radius: 0px 5px 5px 0px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+//Section wisata popular
+.section-popular {
+  min-height: 540px;
+  background-color: rgba(17, 28, 120, 1);
+  background: @include filter-gradient(#111c78, #111c78, horizontal);
+  background: @include
+    background-image(
+      linear-gradient(
+        left,
+        rgba(17, 28, 120, 1) 20%,
+        rgba(17, 28, 120, 1) 28%,
+        rgba(16, 26, 116, 1) 38%,
+        rgba(14, 19, 103, 1) 71%,
+        rgba(14, 19, 103, 1) 76%
+      )
+    );
+  margin-top: -50px;
+  margin-bottom: -230px;
+
+  .section-popular-heading {
+    margin-top: 175px;
+  }
+  h2,
+  p {
+    color: #ffffff;
+  }
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  p {
+    font-size: 18px;
   }
 }

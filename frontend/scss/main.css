@@ -40,10 +40,11 @@ body {
 }
 
 header {
-  padding: 180px 0 165px;
-  margin-top: -150px;
-  background-image: url("../images/headerImg.jpg");
+  padding: 290px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/header.png");
   background-size: cover;
+  height: 50rem;
 }
 
 header h1,
@@ -62,12 +63,69 @@ header p {
 }
 
 header .btn-get-started {
+  background-color: #fd850e;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+header .btn-get-started:hover {
   background-color: #ff9e53;
   color: #ffffff;
 }
 
-header .btn-get-started:hover {
-  background-color: #ffaa69;
+.section-stats {
+  margin-top: -100px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  padding-left: 40px;
+  background-color: #ffffff;
+}
+
+.section-stats .border-left {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.section-stats .border-right {
+  border-radius: 0px 5px 5px 0px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background: #16249c;
+  background: -webkit-gradient(left top, right top, color-stop(8%, #16249c), color-stop(34%, #16249c), color-stop(46%, #16249c), color-stop(77%, #121881), color-stop(93%, #121881));
+  background: -ms-linear-gradient(left, #16249c 8%, #16249c 34%, #16249c 46%, #121881 77%, #121881 93%);
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 175px;
+}
+
+.section-popular h2,
+.section-popular p {
   color: #ffffff;
+}
+
+.section-popular h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular p {
+  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */
