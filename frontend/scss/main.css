@@ -103,9 +103,7 @@ header .btn-get-started:hover {
 
 .section-popular {
   min-height: 540px;
-  background: #16249c;
-  background: -webkit-gradient(left top, right top, color-stop(8%, #16249c), color-stop(34%, #16249c), color-stop(46%, #16249c), color-stop(77%, #121881), color-stop(93%, #121881));
-  background: -ms-linear-gradient(left, #16249c 8%, #16249c 34%, #16249c 46%, #121881 77%, #121881 93%);
+  background-color: #12073c;
   margin-top: -50px;
   margin-bottom: -230px;
 }
@@ -127,5 +125,28 @@ header .btn-get-started:hover {
 
 .section-popular p {
   font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #d2d2d2;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 18px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #fd850e;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #ff9e53;
 }
 /*# sourceMappingURL=main.css.map */

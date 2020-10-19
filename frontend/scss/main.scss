@@ -114,19 +114,7 @@ header {
 //Section wisata popular
 .section-popular {
   min-height: 540px;
-  background-color: rgba(17, 28, 120, 1);
-  background: @include filter-gradient(#111c78, #111c78, horizontal);
-  background: @include
-    background-image(
-      linear-gradient(
-        left,
-        rgba(17, 28, 120, 1) 20%,
-        rgba(17, 28, 120, 1) 28%,
-        rgba(16, 26, 116, 1) 38%,
-        rgba(14, 19, 103, 1) 71%,
-        rgba(14, 19, 103, 1) 76%
-      )
-    );
+  background-color: rgba(18, 7, 60, 1);
   margin-top: -50px;
   margin-bottom: -230px;
 
@@ -144,5 +132,34 @@ header {
   }
   p {
     font-size: 18px;
+  }
+}
+
+.section-popular-content {
+  .section-popular-travel {
+    .card-travel {
+      min-height: 380px;
+      background-color: #d2d2d2;
+      color: #fff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+    }
+
+    .travel-location {
+      font-size: 18px;
+      color: #fff;
+    }
+
+    .travel-button {
+      .btn-travel-details {
+        background-color: #fd850e;
+        color: #fff;
+
+        &:hover {
+          background-color: #ff9e53;
+        }
+      }
+    }
   }
 }
