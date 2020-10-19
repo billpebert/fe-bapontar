@@ -114,12 +114,13 @@ header {
 //Section wisata popular
 .section-popular {
   min-height: 540px;
-  background-color: rgba(18, 7, 60, 1);
-  margin-top: -50px;
+  background-image: url("../images/bg_section2.png");
+  border-radius: 0px 0px 150px 150px;
+  margin-top: -70px;
   margin-bottom: -230px;
 
   .section-popular-heading {
-    margin-top: 175px;
+    margin-top: 150px;
   }
   h2,
   p {
@@ -135,6 +136,7 @@ header {
   }
 }
 
+//section card wisata popular
 .section-popular-content {
   .section-popular-travel {
     .card-travel {
@@ -162,5 +164,20 @@ header {
         }
       }
     }
+  }
+}
+
+.section-networks {
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+  }
+
+  img {
+    max-width: 180px;
   }
 }
