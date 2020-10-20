@@ -248,4 +248,12 @@ header .btn-get-started:hover {
   background-color: #ff9e53;
   color: #ffffff;
 }
+
+.section-footer a {
+  color: #00226e;
+}
+
+.section-footer h5 {
+  font-weight: 600;
+}
 /*# sourceMappingURL=main.css.map */
