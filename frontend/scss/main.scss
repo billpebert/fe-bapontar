@@ -274,3 +274,31 @@ header {
     font-weight: 600;
   }
 }
+
+//details.html
+
+//section-details-header
+
+.section-details-header {
+  min-height: 310px;
+  background: rgb(228, 230, 235);
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -220px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #00226e;
+    }
+  }
+}
