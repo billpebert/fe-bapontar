@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bapontar</title>
-    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="frontend/css/bootstrap.css"/>
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="frontend/scss/main.css"/>
 </head>
 <body class="bg-light">
@@ -82,9 +83,28 @@
                         <div class="card card-details">
                             <h1>Bunaken Island</h1>
                             <p>Manado</p>
-                            <div class="gallery">
 
+                            <div class="gallery">
+                                <div class="xzoom-container">
+                                    <img src="frontend/images/img-gallery/1.jpg" alt="imgPreview" id="xzoom-default" xoriginal="frontend/images/img-gallery/1.jpg" width="640" class="xzoom">
+                                </div>
+
+                                <div class="xzoom-thumbs">
+                                    <a href="frontend/images/img-gallery/1.jpg">
+                                        <img src="frontend/images/img-gallery/1.jpg" alt="image" width="128" xpreview="frontend/images/img-gallery/1.jpg" class="xzoom-gallery">
+                                    </a>
+                                    <a href="frontend/images/img-gallery/2.jpg">
+                                        <img src="frontend/images/img-gallery/2.jpg" alt="image" width="128" xpreview="frontend/images/img-gallery/2.jpg" class="xzoom-gallery">
+                                    </a>
+                                    <a href="frontend/images/img-gallery/3.jpg">
+                                        <img src="frontend/images/img-gallery/3.jpg" alt="image" width="128" xpreview="frontend/images/img-gallery/3.jpg" class="xzoom-gallery">
+                                    </a>
+                                    <a href="frontend/images/img-gallery/4.jpg">
+                                        <img src="frontend/images/img-gallery/4.jpg" alt="image" width="128" xpreview="frontend/images/img-gallery/4.jpg" class="xzoom-gallery">
+                                    </a>
+                                </div>
                             </div>
+
                             <h2>Tentang Wisata</h2>
                             <p>Bunaken is an island of 8 km2, part of the Bunaken National Marine Park. Bunaken is located at the northern tip of the island of Sulawesi, Indonesia. It belongs administratively to the municipality of Manado. Scuba diving attracts many visitors to the island.
                                 Other sides of Bunaken.
@@ -189,5 +209,16 @@
     <script src="frontend/jquery-3.5.1.min.js"></script>
     <script src="frontend/js/bootstrap.js"></script>
     <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+        });
+    </script>
 </body>
 </html>
