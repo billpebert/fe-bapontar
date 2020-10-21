@@ -301,4 +301,49 @@ header {
       color: #00226e;
     }
   }
+
+  .card-details {
+    padding: 30px;
+    color: #00226e;
+    border-radius: 10px;
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #b0b1b2;
+    }
+  }
+
+  .features {
+    margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: #00226e;
+      margin: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+    }
+
+    .featured-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+  }
 }
