@@ -335,6 +335,45 @@ header {
     }
   }
 
+  .payment-instruction {
+    font-weight: 300;
+    font-size: 14px;
+    color: #b1b1b1;
+  }
+
+  .bank {
+    .bank-item {
+      h3 {
+        font-size: 18px;
+        font-weight: 400;
+        color: #00226e;
+        margin-bottom: 0;
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+
+      .description {
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+
+        p {
+          font-weight: normal;
+          font-size: 16px;
+          color: #00226e;
+        }
+      }
+    }
+
+    .bank-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+  }
+
   .disclaimer-section {
     padding: 10px;
     background-color: #e4e6eb;
@@ -449,4 +488,10 @@ header {
       color: #fff;
     }
   }
+}
+
+.cancel-booking {
+  color: #00226e !important;
+  font-weight: 600;
+  text-decoration: underline;
 }
