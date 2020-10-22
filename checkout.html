@@ -6,6 +6,7 @@
     <title>Bapontar</title>
     <link rel="stylesheet" href="frontend/css/bootstrap.css"/>
     <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <link rel="stylesheet" href="frontend/libraries/gijgo-lib-datepicker/css/gijgo.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="frontend/scss/main.css"/>
 </head>
@@ -18,14 +19,14 @@
                 <a href="index.html" class="navbar-brand">
                     <img src="frontend/images/LOGO@2x.png" alt="Logo"/>
                 </a>
-                <ul class="navbar-nav mr-auto d-none d-lg-block">
-                    <li>
-                        <span class="text-muted">
-                            | &nbsp; Make thousand of moments
-                        </span>
-                    </li>
-                </ul>
             </div>
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+                <li>
+                    <span class="text-muted">
+                        | &nbsp; Make thousand of moments
+                    </span>
+                </li>
+            </ul>
         </nav>
     </div>
 
@@ -41,76 +42,90 @@
                                 <li class="breadcrumb-item">
                                     Paket Travel
                                 </li>
-                                <li class="breadcrumb-item active">
+                                <li class="breadcrumb-item">
                                     Details
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    Checkout
                                 </li>
                             </ol>
                         </nav>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 pl-lg-0">
+                    <div class="col-lg-8 pl-lg-0 mb-2">
                         <div class="card card-details">
-                            <h1>Bunaken Island</h1>
-                            <p>Manado</p>
+                            <h1>Who's going?</h1>
+                            <p>
+                                Trip to Bunaken Island, Sulawesi Utara
+                            </p>
+                            <div class="attendee">
+                                <table class="table table-responsive-sm text-center">
+                                    <thead>
+                                        <tr>
+                                            <td>Picture</td>
+                                            <td>Name</td>
+                                            <td>Nationality</td>
+                                            <td>VISA</td>
+                                            <td>Passport</td>
+                                            <td></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
 
-                            <div class="gallery">
-                                <div class="xzoom-container">
-                                    <img src="frontend/images/img-gallery/1.jpg" alt="imgPreview" id="xzoom-default" xoriginal="frontend/images/img-gallery/1.jpg" width="640" class="xzoom">
-                                </div>
+                                        <tr>
+                                            <td>
+                                                <img src="frontend/images/testi1.jpg" alt="" height="48"  width="48"class="rounded-circle">
+                                            </td>
+                                            <td class="align-middle">Bilpo</td>
+                                            <td class="align-middle">Indonesia</td>
+                                            <td class="align-middle">N/A</td>
+                                            <td class="align-middle">Active</td>
+                                            <td class="align-middle"><img src="frontend/images/icon/icon_X.png" alt="rm-icon" width="20"></td>
+                                        </tr>
 
-                                <div class="xzoom-thumbs">
-                                    <a href="frontend/images/img-gallery/1.jpg">
-                                        <img src="frontend/images/img-gallery/1.jpg" alt="image" width="128" xpreview="frontend/images/img-gallery/1.jpg" class="xzoom-gallery">
-                                    </a>
-                                    <a href="frontend/images/img-gallery/2.jpg">
-                                        <img src="frontend/images/img-gallery/2.jpg" alt="image" width="128" xpreview="frontend/images/img-gallery/2.jpg" class="xzoom-gallery">
-                                    </a>
-                                    <a href="frontend/images/img-gallery/3.jpg">
-                                        <img src="frontend/images/img-gallery/3.jpg" alt="image" width="128" xpreview="frontend/images/img-gallery/3.jpg" class="xzoom-gallery">
-                                    </a>
-                                    <a href="frontend/images/img-gallery/4.jpg">
-                                        <img src="frontend/images/img-gallery/4.jpg" alt="image" width="128" xpreview="frontend/images/img-gallery/4.jpg" class="xzoom-gallery">
-                                    </a>
-                                </div>
+                                        <tr>
+                                            <td>
+                                                <img src="frontend/images/testi1.jpg" alt="" height="48"  width="48"class="rounded-circle">
+                                            </td>
+                                            <td class="align-middle">Perth</td>
+                                            <td class="align-middle">Singapore</td>
+                                            <td class="align-middle">30 Days</td>
+                                            <td class="align-middle">Active</td>
+                                            <td class="align-middle"><img src="frontend/images/icon/icon_X.png" alt="rm-icon" width="20"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
 
-                            <h2>Tentang Wisata</h2>
-                            <p>Bunaken is an island of 8 km2, part of the Bunaken National Marine Park. Bunaken is located at the northern tip of the island of Sulawesi, Indonesia. It belongs administratively to the municipality of Manado. Scuba diving attracts many visitors to the island.
-                                Other sides of Bunaken.
-                                Bunaken National Park extends over an area of 890.65 km2 of which only 3% is terrestrial, including Bunaken Island, as well as the islands of Manado Tua, Mantehage, Nain and Siladen.
-                            </p>
-                            <p>
-                                The waters of Bunaken National Marine Park are up to 1,566 m deep in Manado Bay, with temperatures ranging between 27 and 29 °C. It has a high diversity of - corals, fish, echinoderms or sponges. Notably, 7 of the 8 species of giant clams that occur in the world, occur in Bunaken. It also claims to have seven times more genera of coral than Hawaii,[1] and has more than 70% of all the known fish species of the Indo-Western Pacific.[2]
-                            </p>
-                            <!-- ADA 1 BAGIAN DILEWATI DI VIDEO DETAILS PAGE -->
-                            <div class="features row">
-                                <div class="col-md-4 border-right">
-                                    <div class="description">
-                                        <img src="frontend/images/icon_food.png" alt="" class="featured-image">
-                                        <div class="description">
-                                            <h3>Featured Event</h3>
-                                            <p>Maengket</p>
-                                        </div>
+                            <div class="member mt-3">
+                                <h2>Add Member</h2>
+                                <form action="" class="form-inline">
+
+                                    <label for="inputUsername" class="sr-only">Name</label>
+                                    <input type="text" name="inputUsername" class="form-control mb-2 mr-sm-2" id="inputUsername" placeholder="Username">
+
+                                    <label for="inputVisa" class="sr-only">Visa</label>
+                                    <select name="inputVisa" id="inputVisa" class="custom-select mb-2 mr-sm-2">
+                                        <option value="VISA" selected>VISA</option>
+                                        <option value="30 Days">30 Days</option>
+                                        <option value="N/A">N/A</option>
+                                    </select>
+
+                                    <label for="doePassport" class="sr-only">DOE Passport</label>
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <input type="text" class="form-control datepicker" id="doePassport" placeholder="DOE Passport">
                                     </div>
-                                </div>
-                                <div class="col-md-4 border-right">
-                                    <div class="description">
-                                        <img src="frontend/images/icon_food.png" alt="" class="featured-image">
-                                        <div class="description">
-                                            <h3>Language</h3>
-                                            <p>Bahasa Indonesia</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="description">
-                                        <img src="frontend/images/icon_food.png" alt="" class="featured-image">
-                                        <div class="description">
-                                            <h3>Foods</h3>
-                                            <p>Lalampa</p>
-                                        </div>
-                                    </div>
+
+                                    <button type="submit" class="btn btn-add-now mb-2 px-4">
+                                        Add
+                                    </button>
+                                </form>
+                                <div class="disclaimer-section">
+                                    <h3 class="mt-2 mb-0">Note</h3>
+                                    <p class="disclaimer mb-0">
+                                        You're only able to invite member that has registered in Bapontar.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -224,6 +239,7 @@
     <script src="frontend/js/bootstrap.js"></script>
     <script src="frontend/libraries/retina/retina.min.js"></script>
     <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script src="frontend/libraries/gijgo-lib-datepicker/js/gijgo.min.js"></script>
     <script>
         $(document).ready(function(){
             $('.xzoom, .xzoom-gallery').xzoom({
@@ -232,6 +248,13 @@
                 tint: '#333',
                 Xoffset: 15
             });
+
+            $('.datepicker').datepicker({
+                uiLibrary: 'bootstrap4',
+                icons: {
+                    rightIcon: '<img src="frontend/images/icon/icon_credit.png" width="20"/>'
+                }
+            })
         });
     </script>
 </body>

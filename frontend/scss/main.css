@@ -298,6 +298,56 @@ header .btn-get-started:hover {
   color: #b0b1b2;
 }
 
+.section-details-content .trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #00226e;
+}
+
+.section-details-content .trip-informations td {
+  font-weight: 300;
+  color: #b1b1b1;
+  font-size: 18px;
+}
+
+.section-details-content .disclaimer-section {
+  padding: 10px;
+  background-color: #e4e6eb;
+  border-radius: 400px;
+}
+
+.section-details-content .disclaimer-section .disclaimer {
+  margin-left: 12px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #6e6e6e;
+}
+
+.section-details-content .disclaimer-section h3 {
+  margin-left: 12px;
+  color: #00226e;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section-details-content .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-details-content .btn-add-now {
+  background-color: #fd850e;
+  color: #ffffff;
+}
+
+.section-details-content .btn-add-now:hover {
+  background-color: #ff9e53;
+  color: #ffffff;
+}
+
 .section-details-content .card-right {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;

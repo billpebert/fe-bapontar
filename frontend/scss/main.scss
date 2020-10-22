@@ -321,6 +321,62 @@ header {
     }
   }
 
+  .trip-informations {
+    th {
+      font-weight: 300;
+      font-size: 18px;
+      color: #00226e;
+    }
+
+    td {
+      font-weight: 300;
+      color: #b1b1b1;
+      font-size: 18px;
+    }
+  }
+
+  .disclaimer-section {
+    padding: 10px;
+    background-color: #e4e6eb;
+    border-radius: 400px;
+
+    .disclaimer {
+      margin-left: 12px;
+      font-weight: 300;
+      font-size: 14px;
+      color: #6e6e6e;
+    }
+
+    h3 {
+      margin-left: 12px;
+      color: #00226e;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  .gj-datepicker {
+    .datepicker {
+      border-right: 0;
+    }
+
+    .input-group-append {
+      .btn {
+        padding-right: 30px;
+      }
+    }
+  }
+
+  .btn-add-now {
+    background-color: #fd850e;
+    color: #ffffff;
+
+    &:hover {
+      background-color: #ff9e53;
+      color: #ffffff;
+    }
+  }
+
   .card-right {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
