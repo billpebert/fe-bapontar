@@ -458,4 +458,36 @@ header .btn-get-started:hover {
   font-weight: 600;
   text-decoration: underline;
 }
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success img {
+  width: 360px;
+  height: 360px;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #00226e;
+}
+
+.section-success p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  background-color: #fd850e;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #ff9e53;
+  color: #ffffff;
+}
 /*# sourceMappingURL=main.css.map */
